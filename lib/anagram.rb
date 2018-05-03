@@ -1,6 +1,6 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :word :%w(anagrams_spec.rb)
+  attr_accessor :word :%w()
   
   def initialize(word)
     @word = word
