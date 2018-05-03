@@ -9,7 +9,7 @@ class Anagram
   end
   
   def match(array)
-    @word.match(%w(hello world zombies pants dipper)
+    @word.match %w(hello world zombies pants dipper)
   end
   
   
