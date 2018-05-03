@@ -3,7 +3,7 @@ class Anagram
   attr_accessor :%w
   def initialize(word)
     word.split("").sort
-    %w().find_all {|words| words == word}
+    %w.find_all {|words| words == word}
   end
     
   end 
