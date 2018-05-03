@@ -3,7 +3,7 @@ class Anagram
   
   def initialize(word)
     word.split("").sort
-    %w(array).find_all {|words| words == word}
+    %w().find_all {|words| words == word}
   end
     
   end 
