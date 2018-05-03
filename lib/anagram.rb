@@ -1,15 +1,15 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :word, :array
+  attr_accessor :word
   
   def initialize(word)
-    @word = word
-    @array.collect {|w| w.split("").sort == @word.split("").sort}
+  #  @word = word
+  #  @array.collect {|w| w.split("").sort == @word.split("").sort}
   end
   
-  def match(array)
-    @array = %w(hello world zombies pants dipper)
-  end
+  #def match(array)
+  #  @array = %w(hello world zombies pants dipper)
+  #end
   
   
 end 
