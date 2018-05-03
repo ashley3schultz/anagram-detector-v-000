@@ -4,7 +4,7 @@ class Anagram
   
   def initialize(word)
     @word = word
-    %w(&:anagrams_spec.rb).find_all {|w| w.split("").sort == word.split("").sort}
+    %w(&:anagrams_spec.rb).find_all {|w| w.split("").sort == @word.split("").sort}
   end
   
   
