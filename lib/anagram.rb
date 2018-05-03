@@ -4,7 +4,8 @@ class Anagram
   
   def initialize(word)
     @word = word
-    %w(&:anagrams_spec.rb).find_all {|w| w.split("").sort == @word.split("").sort}
+    array = %w(hello world zombies pants dipper)
+    array.find_all {|w| w.split("").sort == @word.split("").sort}
   end
   
   
