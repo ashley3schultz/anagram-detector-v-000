@@ -1,7 +1,10 @@
 # Your code goes here!
 class Anagram
   
-  def initialize(string)
+  def initialize(word)
+    word.split("").sort
+    
+    
   end
     
   end 
