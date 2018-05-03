@@ -4,7 +4,7 @@ class Anagram
   
   def initialize(word)
     @word = word
-    @array.find_all {|w| w.split("").sort == @word.split("").sort}
+    @array.collect {|w| w.split("").sort == @word.split("").sort}
   end
   
   def match(array)
