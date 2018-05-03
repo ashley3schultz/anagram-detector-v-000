@@ -3,13 +3,12 @@ class Anagram
   attr_accessor :word
   
   def initialize(word)
-  #  @word = word
-  #  @array.collect {|w| w.split("").sort == @word.split("").sort}
+    @word = word
   end
   
-  #def match(array)
-  #  @array = %w(hello world zombies pants dipper)
-  #end
+  def match(array)
+    array.find_all {|w| w.split("").sort == @word.split("").sort}
+  end
   
   
 end 
